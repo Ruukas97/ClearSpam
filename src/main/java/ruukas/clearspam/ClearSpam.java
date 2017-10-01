@@ -12,7 +12,6 @@ import net.minecraft.client.gui.GuiNewChat;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
-import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.relauncher.ReflectionHelper;
 import net.minecraftforge.fml.relauncher.ReflectionHelper.UnableToFindFieldException;
@@ -33,6 +32,7 @@ public class ClearSpam {
 		MinecraftForge.EVENT_BUS.register(SpamEventHandler.class);
 	}
 
+	@SuppressWarnings("unchecked")
 	@Nullable
 	public static List<ChatLine> getChatLines() {
 		List<ChatLine> chatLine = null;
