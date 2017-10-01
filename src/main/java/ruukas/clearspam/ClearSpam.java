@@ -16,10 +16,10 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.relauncher.ReflectionHelper;
 import net.minecraftforge.fml.relauncher.ReflectionHelper.UnableToFindFieldException;
 
-@Mod(name = "ClearSpam", modid = ClearSpam.MODID, version = ClearSpam.VERSION)
+@Mod(name = "ClearSpam", modid = ClearSpam.MODID, version = ClearSpam.VERSION, acceptedMinecraftVersions="[1.11,1.12.2]")
 public class ClearSpam {
 	public static final String MODID = "clearspam";
-	public static final String VERSION = "0.3.1";
+	public static final String VERSION = "0.4";
 	
 	//TODO remove caps
 	//TODO add a [x] on a filtered message, which will show the violation on mouseover¨
