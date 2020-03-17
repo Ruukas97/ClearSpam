@@ -1,0 +1,16 @@
+[
+{
+  "modid": "clearspam",
+  "name": "ClearSpam",
+  "description": "Removes duplicate messages in chat. Inspired by AntiSpam feature in Wurst client.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Ruukas"],
+  "credits": "marcocorriero for suggestions.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
